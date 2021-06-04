@@ -8,24 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8AA98F96266A533500E72E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA98F95266A533500E72E7F /* AppDelegate.swift */; };
-		8AA98F98266A533500E72E7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA98F97266A533500E72E7F /* SceneDelegate.swift */; };
-		8AA98F9A266A533500E72E7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA98F99266A533500E72E7F /* ViewController.swift */; };
-		8AA98F9D266A533500E72E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA98F9B266A533500E72E7F /* Main.storyboard */; };
 		8AA98FA0266A533500E72E7F /* Tesla.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AA98F9E266A533500E72E7F /* Tesla.xcdatamodeld */; };
 		8AA98FA2266A533A00E72E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA98FA1266A533A00E72E7F /* Assets.xcassets */; };
 		8AA98FA5266A533A00E72E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA98FA3266A533A00E72E7F /* LaunchScreen.storyboard */; };
+		8AA98FB1266A548A00E72E7F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA98FAF266A548A00E72E7F /* MainVC.swift */; };
+		8AA98FB2266A548A00E72E7F /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA98FB0266A548A00E72E7F /* MainVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8AA98F92266A533500E72E7F /* Tesla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tesla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA98F95266A533500E72E7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8AA98F97266A533500E72E7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8AA98F99266A533500E72E7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8AA98F9C266A533500E72E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AA98F9F266A533500E72E7F /* Tesla.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tesla.xcdatamodel; sourceTree = "<group>"; };
 		8AA98FA1266A533A00E72E7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AA98FA4266A533A00E72E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AA98FA6266A533A00E72E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA98FAF266A548A00E72E7F /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		8AA98FB0266A548A00E72E7F /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				8AA98F95266A533500E72E7F /* AppDelegate.swift */,
-				8AA98F97266A533500E72E7F /* SceneDelegate.swift */,
-				8AA98F99266A533500E72E7F /* ViewController.swift */,
-				8AA98F9B266A533500E72E7F /* Main.storyboard */,
 				8AA98FA1266A533A00E72E7F /* Assets.xcassets */,
 				8AA98FA3266A533A00E72E7F /* LaunchScreen.storyboard */,
 				8AA98FA6266A533A00E72E7F /* Info.plist */,
 				8AA98F9E266A533500E72E7F /* Tesla.xcdatamodeld */,
+				8AA98FAF266A548A00E72E7F /* MainVC.swift */,
+				8AA98FB0266A548A00E72E7F /* MainVC.xib */,
 			);
 			path = Tesla;
 			sourceTree = "<group>";
@@ -127,9 +124,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA98FB2266A548A00E72E7F /* MainVC.xib in Resources */,
 				8AA98FA5266A533A00E72E7F /* LaunchScreen.storyboard in Resources */,
 				8AA98FA2266A533A00E72E7F /* Assets.xcassets in Resources */,
-				8AA98F9D266A533500E72E7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA98F9A266A533500E72E7F /* ViewController.swift in Sources */,
 				8AA98F96266A533500E72E7F /* AppDelegate.swift in Sources */,
-				8AA98F98266A533500E72E7F /* SceneDelegate.swift in Sources */,
+				8AA98FB1266A548A00E72E7F /* MainVC.swift in Sources */,
 				8AA98FA0266A533500E72E7F /* Tesla.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8AA98F9B266A533500E72E7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8AA98F9C266A533500E72E7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8AA98FA3266A533A00E72E7F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,6 +280,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tesla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Tesla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
