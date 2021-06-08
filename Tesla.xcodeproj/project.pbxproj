@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A152C3A266E61040011D7F8 /* FinishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A152C38266E61040011D7F8 /* FinishVC.swift */; };
+		8A152C3B266E61040011D7F8 /* FinishVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A152C39266E61040011D7F8 /* FinishVC.xib */; };
 		8AA98F96266A533500E72E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA98F95266A533500E72E7F /* AppDelegate.swift */; };
 		8AA98FA0266A533500E72E7F /* Tesla.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AA98F9E266A533500E72E7F /* Tesla.xcdatamodeld */; };
 		8AA98FA2266A533A00E72E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA98FA1266A533A00E72E7F /* Assets.xcassets */; };
 		8AA98FA5266A533A00E72E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA98FA3266A533A00E72E7F /* LaunchScreen.storyboard */; };
 		8AA98FB1266A548A00E72E7F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA98FAF266A548A00E72E7F /* MainVC.swift */; };
 		8AA98FB2266A548A00E72E7F /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA98FB0266A548A00E72E7F /* MainVC.xib */; };
+		8AA98FBD266B6F5100E72E7F /* ModelSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA98FBB266B6F5100E72E7F /* ModelSViewController.swift */; };
+		8AA98FBE266B6F5100E72E7F /* ModelSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA98FBC266B6F5100E72E7F /* ModelSViewController.xib */; };
+		8AA98FC3266B6F6900E72E7F /* ModelYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA98FC1266B6F6900E72E7F /* ModelYViewController.swift */; };
+		8AA98FC4266B6F6900E72E7F /* ModelYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA98FC2266B6F6900E72E7F /* ModelYViewController.xib */; };
+		8AA98FC8266B6F7900E72E7F /* ModelXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA98FC6266B6F7900E72E7F /* ModelXViewController.swift */; };
+		8AA98FC9266B6F7900E72E7F /* ModelXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA98FC7266B6F7900E72E7F /* ModelXViewController.xib */; };
+		9E924E2AB95DB4E3BC98ADD0 /* Pods_Tesla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079BB4CB36704EFF524D9350 /* Pods_Tesla.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		079BB4CB36704EFF524D9350 /* Pods_Tesla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tesla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A152C38266E61040011D7F8 /* FinishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishVC.swift; sourceTree = "<group>"; };
+		8A152C39266E61040011D7F8 /* FinishVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinishVC.xib; sourceTree = "<group>"; };
 		8AA98F92266A533500E72E7F /* Tesla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tesla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA98F95266A533500E72E7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AA98F9F266A533500E72E7F /* Tesla.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tesla.xcdatamodel; sourceTree = "<group>"; };
@@ -24,6 +36,14 @@
 		8AA98FA6266A533A00E72E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AA98FAF266A548A00E72E7F /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		8AA98FB0266A548A00E72E7F /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		8AA98FBB266B6F5100E72E7F /* ModelSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSViewController.swift; sourceTree = "<group>"; };
+		8AA98FBC266B6F5100E72E7F /* ModelSViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModelSViewController.xib; sourceTree = "<group>"; };
+		8AA98FC1266B6F6900E72E7F /* ModelYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelYViewController.swift; sourceTree = "<group>"; };
+		8AA98FC2266B6F6900E72E7F /* ModelYViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModelYViewController.xib; sourceTree = "<group>"; };
+		8AA98FC6266B6F7900E72E7F /* ModelXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelXViewController.swift; sourceTree = "<group>"; };
+		8AA98FC7266B6F7900E72E7F /* ModelXViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModelXViewController.xib; sourceTree = "<group>"; };
+		B49F4EC45BF107614D73B21F /* Pods-Tesla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tesla.debug.xcconfig"; path = "Target Support Files/Pods-Tesla/Pods-Tesla.debug.xcconfig"; sourceTree = "<group>"; };
+		BC347AE9F458B7C41E4BE379 /* Pods-Tesla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tesla.release.xcconfig"; path = "Target Support Files/Pods-Tesla/Pods-Tesla.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E924E2AB95DB4E3BC98ADD0 /* Pods_Tesla.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		709D4671932B1CEBE7A40204 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B49F4EC45BF107614D73B21F /* Pods-Tesla.debug.xcconfig */,
+				BC347AE9F458B7C41E4BE379 /* Pods-Tesla.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8AA98F89266A533500E72E7F = {
 			isa = PBXGroup;
 			children = (
 				8AA98F94266A533500E72E7F /* Tesla */,
 				8AA98F93266A533500E72E7F /* Products */,
+				709D4671932B1CEBE7A40204 /* Pods */,
+				E79E89405C20E27E645CBB08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +88,9 @@
 		8AA98F94266A533500E72E7F /* Tesla */ = {
 			isa = PBXGroup;
 			children = (
+				8AA98FBA266B6F2300E72E7F /* Model S */,
+				8AA98FB9266B6F1B00E72E7F /* Model Y */,
+				8AA98FB8266B6F0C00E72E7F /* Model X */,
 				8AA98F95266A533500E72E7F /* AppDelegate.swift */,
 				8AA98FA1266A533A00E72E7F /* Assets.xcassets */,
 				8AA98FA3266A533A00E72E7F /* LaunchScreen.storyboard */,
@@ -63,8 +98,45 @@
 				8AA98F9E266A533500E72E7F /* Tesla.xcdatamodeld */,
 				8AA98FAF266A548A00E72E7F /* MainVC.swift */,
 				8AA98FB0266A548A00E72E7F /* MainVC.xib */,
+				8A152C38266E61040011D7F8 /* FinishVC.swift */,
+				8A152C39266E61040011D7F8 /* FinishVC.xib */,
 			);
 			path = Tesla;
+			sourceTree = "<group>";
+		};
+		8AA98FB8266B6F0C00E72E7F /* Model X */ = {
+			isa = PBXGroup;
+			children = (
+				8AA98FC6266B6F7900E72E7F /* ModelXViewController.swift */,
+				8AA98FC7266B6F7900E72E7F /* ModelXViewController.xib */,
+			);
+			path = "Model X";
+			sourceTree = "<group>";
+		};
+		8AA98FB9266B6F1B00E72E7F /* Model Y */ = {
+			isa = PBXGroup;
+			children = (
+				8AA98FC1266B6F6900E72E7F /* ModelYViewController.swift */,
+				8AA98FC2266B6F6900E72E7F /* ModelYViewController.xib */,
+			);
+			path = "Model Y";
+			sourceTree = "<group>";
+		};
+		8AA98FBA266B6F2300E72E7F /* Model S */ = {
+			isa = PBXGroup;
+			children = (
+				8AA98FBB266B6F5100E72E7F /* ModelSViewController.swift */,
+				8AA98FBC266B6F5100E72E7F /* ModelSViewController.xib */,
+			);
+			path = "Model S";
+			sourceTree = "<group>";
+		};
+		E79E89405C20E27E645CBB08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				079BB4CB36704EFF524D9350 /* Pods_Tesla.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AA98FA9266A533A00E72E7F /* Build configuration list for PBXNativeTarget "Tesla" */;
 			buildPhases = (
+				2A90B93E909DC5F803A3E2FD /* [CP] Check Pods Manifest.lock */,
 				8AA98F8E266A533500E72E7F /* Sources */,
 				8AA98F8F266A533500E72E7F /* Frameworks */,
 				8AA98F90266A533500E72E7F /* Resources */,
+				CBC808F9B9D9E1F211771B92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,20 +198,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA98FBE266B6F5100E72E7F /* ModelSViewController.xib in Resources */,
 				8AA98FB2266A548A00E72E7F /* MainVC.xib in Resources */,
 				8AA98FA5266A533A00E72E7F /* LaunchScreen.storyboard in Resources */,
+				8AA98FC4266B6F6900E72E7F /* ModelYViewController.xib in Resources */,
 				8AA98FA2266A533A00E72E7F /* Assets.xcassets in Resources */,
+				8A152C3B266E61040011D7F8 /* FinishVC.xib in Resources */,
+				8AA98FC9266B6F7900E72E7F /* ModelXViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A90B93E909DC5F803A3E2FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tesla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC808F9B9D9E1F211771B92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tesla/Pods-Tesla-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tesla/Pods-Tesla-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tesla/Pods-Tesla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8AA98F8E266A533500E72E7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA98FBD266B6F5100E72E7F /* ModelSViewController.swift in Sources */,
 				8AA98F96266A533500E72E7F /* AppDelegate.swift in Sources */,
+				8A152C3A266E61040011D7F8 /* FinishVC.swift in Sources */,
+				8AA98FC3266B6F6900E72E7F /* ModelYViewController.swift in Sources */,
+				8AA98FC8266B6F7900E72E7F /* ModelXViewController.swift in Sources */,
 				8AA98FB1266A548A00E72E7F /* MainVC.swift in Sources */,
 				8AA98FA0266A533500E72E7F /* Tesla.xcdatamodeld in Sources */,
 			);
@@ -275,6 +399,7 @@
 		};
 		8AA98FAA266A533A00E72E7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49F4EC45BF107614D73B21F /* Pods-Tesla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +419,7 @@
 		};
 		8AA98FAB266A533A00E72E7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC347AE9F458B7C41E4BE379 /* Pods-Tesla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
